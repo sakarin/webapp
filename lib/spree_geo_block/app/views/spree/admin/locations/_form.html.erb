@@ -1,0 +1,26 @@
+<table>
+  <tr>
+    <td><label><%=t("name")%></label></td>
+    <td><%= text_field :location, :name, {"style" => "width:300px"} %></td>
+  </tr>
+  <tr>
+    <td><label><%=t("location_code")%></label></td>
+    <td><%= text_field :location, :code, {"style" => "width:300px"} %> ** Redirect Path</td>
+  </tr>
+  <tr>
+    <td><label><%= t("location_conuntry") %></label></td>
+    <td><%= text_field :location, :country, {"style" => "width:200px"} %> ** Country Code</td>
+  </tr>
+  <tr>
+    <td><label><%= t("location_state") %></label></td>
+    <td><%= text_field :location, :state, {"style" => "width:200px"} %> ** State Code Or Region Code</td>
+  </tr>
+  <tr>
+    <td><label><%= t("location_zip") %></label></td>
+    <td><%= text_field :location, :zip, {"style" => "width:100px"} %></td>
+  </tr>
+  <tr>
+    <td><label><%= t("location_city") %></label></td>
+    <td><%= text_field :location, :city, {"style" => "width:200px"} %></td>
+  </tr>
+</table>

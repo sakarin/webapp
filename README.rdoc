@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------------------------------------
+Official PayPal Express for Spree
+-------------------------------------------------------------------------------------------------------------
+Installation
+1. Add the following line to your application's Gemfile
+
+ gem "spree_paypal_express", :git => "git://github.com/spree/spree_paypal_express.git"
+Note: The :git option is only required for the edge version, and can be removed to used the released gem.
+
+2. Run bundler
+
+  bundle install
+3. Copy assets / migrations
+
+  rails g spree_paypal_express:install
+
+
+-------------------------------------------------------------------------------------------------------------
+Spree Flexi Variants
+-------------------------------------------------------------------------------------------------------------
+https://github.com/jsqu99/spree_flexi_variants.git
+
+Installation
+# see the notes in Versionfile if you are using an older version of spree
+gem 'rmagick'
+gem 'carrierwave'
+gem 'spree_flexi_variants', :git=>'git@github.com:jsqu99/spree_flexi_variants.git'
+
+bundle install
+
+bundle exec rails g spree_flexi_variants:install
+
+-------------------------------------------------------------------------------------------------------------
+RMagick
+-------------------------------------------------------------------------------------------------------------
+http://rmagick.rubyforge.org/install-osx.html

@@ -1,0 +1,22 @@
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore the database configuration
+/config/database.yml
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+#OS generated files
+.DS_Store*
+
+# Ignore Rubymind config files
+.idea
+
+# Ignore Asset files
+/public/spree/products/
